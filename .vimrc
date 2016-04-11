@@ -35,6 +35,11 @@ syntax enable " Enable syntax highlight.
 let mapleader = ',' "Remap leader to comma.
 set number "Show line numbers.
 
+set tabstop=8
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+
 colorscheme jellybeans
 set t_Co=256 "Use 256 colors in terminal.
 
